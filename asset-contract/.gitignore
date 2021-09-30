@@ -1,0 +1,12 @@
+node_modules
+
+#Hardhat files
+cache
+artifacts
+/data
+.idea/.gitignore
+.idea/asset-hardhat.iml
+.idea/modules.xml
+.idea/vcs.xml
+/package-lock.json
+/build

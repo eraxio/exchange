@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@0xsequence/erc-1155": "^3.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethers": "^5.1.4",
+    "hardhat": "^2.2.1",
+    "hardhat-abi-exporter": "^2.2.1",
+    "hardhat-deploy": "^0.7.5",
+    "hardhat-deploy-ethers": "*",
+    "hardhat-gas-reporter": "^1.0.4",
+    "sol-merger": "^3.1.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0"
+  },
+  "scripts": {
+    "build-contracts": "sol-merger \"./contracts/*.sol\" ./build"
+  }
+}
